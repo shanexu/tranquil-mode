@@ -57,9 +57,9 @@
 
 (defvar tq-class-def-regexp-3 "^[@#]\\([A-Z][A-Za-z0-9_]*\\)\\s-*\\(<\\s-*\\([A-Z][A-Za-z0-9_]*\\)\\)")
 
-(defvar tq-method-regexp-1 "[+-]\\s-*\\([_a-zA-Z][_0-9a-zA-Z]*\\)\\(\\s-*:\\s-*[_a-zA-Z][_0-9a-zA-Z]*\\)?\\(\\s-+\\([_a-zA-Z][_0-9a-zA-Z]*\\)\\(\\s-*:\\s-*[_a-zA-Z][_0-9a-zA-Z]*\\)\\)*\\s-*[{`]")
+(defvar tq-method-regexp-1 "[+-]\\s-*\\([_a-zA-Z][_0-9a-zA-Z]*\\)\\(\\s-*:\\s-*[_a-zA-Z][_0-9a-zA-Z]*\\)?\\(\\s-+\\([_a-zA-Z][_0-9a-zA-Z]*\\)\\(\\s-*:\\s-*[_a-zA-Z][_0-9a-zA-Z]*\\)\\)*[\s\t\n\r]*[{`]")
 
-(defvar tq-method-regexp-4 "[+-]\\s-*\\([_a-zA-Z][_0-9a-zA-Z]*\\)\\(\\s-*:\\s-*[_a-zA-Z][_0-9a-zA-Z]*\\)?\\(\\s-+\\([_a-zA-Z][_0-9a-zA-Z]*\\)\\(\\s-*:\\s-*[_a-zA-Z][_0-9a-zA-Z]*\\)\\)+\\s-*[{`]")
+(defvar tq-method-regexp-4 "[+-]\\s-*\\([_a-zA-Z][_0-9a-zA-Z]*\\)\\(\\s-*:\\s-*[_a-zA-Z][_0-9a-zA-Z]*\\)?\\(\\s-+\\([_a-zA-Z][_0-9a-zA-Z]*\\)\\(\\s-*:\\s-*[_a-zA-Z][_0-9a-zA-Z]*\\)\\)+[\s\t\n\r]*[{`]")
 
 (defvar tq-instance-variable-regexp "\\(@\\|@@\\)\\(\\w\\|_\\)+")
 
