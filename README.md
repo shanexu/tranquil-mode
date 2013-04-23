@@ -1,4 +1,5 @@
 tranquil-mode
 =============
 
-Emacs mode for tranquil
+This is Emacs mode for [tranquil](https://github.com/fjolnir/Tranquil).
+
